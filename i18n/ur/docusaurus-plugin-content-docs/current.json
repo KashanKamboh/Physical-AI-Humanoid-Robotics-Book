@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.tutorialSidebar.category.Preface": {
+    "message": "Preface",
+    "description": "The label for category 'Preface' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 1: Robotic Nervous System (ROS 2)": {
+    "message": "Module 1: Robotic Nervous System (ROS 2)",
+    "description": "The label for category 'Module 1: Robotic Nervous System (ROS 2)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 2: Digital Twin (Gazebo & Unity)": {
+    "message": "Module 2: Digital Twin (Gazebo & Unity)",
+    "description": "The label for category 'Module 2: Digital Twin (Gazebo & Unity)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 3: AI-Robot Brain (NVIDIA Isaac)": {
+    "message": "Module 3: AI-Robot Brain (NVIDIA Isaac)",
+    "description": "The label for category 'Module 3: AI-Robot Brain (NVIDIA Isaac)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Module 4: Vision-Language-Action (VLA)": {
+    "message": "Module 4: Vision-Language-Action (VLA)",
+    "description": "The label for category 'Module 4: Vision-Language-Action (VLA)' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Capstone Project": {
+    "message": "Capstone Project",
+    "description": "The label for category 'Capstone Project' in sidebar 'tutorialSidebar'"
+  },
+  "sidebar.tutorialSidebar.category.Reference Materials": {
+    "message": "Reference Materials",
+    "description": "The label for category 'Reference Materials' in sidebar 'tutorialSidebar'"
+  }
+}

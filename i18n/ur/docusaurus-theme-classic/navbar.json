@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "فزیکل ای آئی اور ہیومنوائڈ روبوٹکس",
+    "description": "The title in the navbar"
+  },
+  "item.label.Modules": {
+    "message": "ماڈیولز",
+    "description": "Navbar item with label Modules"
+  },
+  "item.label.Blog": {
+    "message": "بلاگ",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.GitHub": {
+    "message": "گیتھب",
+    "description": "Navbar item with label GitHub"
+  },
+  "logo.alt": {
+    "message": "Physical AI & Humanoid Robotics Logo",
+    "description": "The alt text of navbar logo"
+  }
+}
