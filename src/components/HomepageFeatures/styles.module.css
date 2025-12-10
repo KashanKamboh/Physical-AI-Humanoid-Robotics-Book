@@ -1,0 +1,28 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 4rem 0;
+  width: 100%;
+  background: linear-gradient(135deg, #1a2a6c, #2a4d69, #4b86b4);
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.featureIcon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+@media screen and (max-width: 996px) {
+  .features {
+    padding: 2rem 0;
+  }
+
+  .featureIcon {
+    font-size: 2.5rem;
+  }
+}

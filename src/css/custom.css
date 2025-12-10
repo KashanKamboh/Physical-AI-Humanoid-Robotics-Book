@@ -1,0 +1,368 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2a4d69;
+  --ifm-color-primary-dark: #25455f;
+  --ifm-color-primary-darker: #23415a;
+  --ifm-color-primary-darkest: #1d364a;
+  --ifm-color-primary-light: #305774;
+  --ifm-color-primary-lighter: #325c79;
+  --ifm-color-primary-lightest: #3a6a8c;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #4b86b4;
+  --ifm-color-primary-dark: #4378a2;
+  --ifm-color-primary-darker: #3f7199;
+  --ifm-color-primary-darkest: #345d7e;
+  --ifm-color-primary-light: #5a94c0;
+  --ifm-color-primary-lighter: #639bc4;
+  --ifm-color-primary-lightest: #7aa9ce;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/* Custom styles for the Physical AI & Humanoid Robotics book */
+.hero--primary {
+  background: linear-gradient(135deg, #1a2a6c, #2a4d69, #4b86b4);
+  color: white;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* Custom styles for code blocks */
+.code-block-error-line {
+  background-color: #ff000020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff0000;
+}
+
+.code-block-success-line {
+  background-color: #00ff0020;
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #00ff00;
+}
+
+/* Custom styles for diagrams */
+.diagram-container {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 0.5rem;
+  border-left: 4px solid var(--ifm-color-primary);
+}
+
+/* Custom styles for runnable code examples */
+.runnable-code-example {
+  border: 1px solid #e0e0e0;
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+  overflow: hidden;
+}
+
+.runnable-code-header {
+  background-color: #f5f5f5;
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.runnable-code-content {
+  padding: 1rem;
+}
+
+/* Custom styles for verification procedures */
+.verification-box {
+  border: 2px solid #4caf50;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #f1f8e9;
+}
+
+.verification-title {
+  font-weight: bold;
+  color: #2e7d32;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styles for try yourself tasks */
+.try-yourself-box {
+  border: 2px dashed #ff9800;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #fff3e0;
+}
+
+.try-yourself-title {
+  font-weight: bold;
+  color: #ef6c00;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styles for learning outcomes */
+.learning-outcomes {
+  border: 2px solid #2196f3;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #e3f2fd;
+}
+
+.learning-outcomes-title {
+  font-weight: bold;
+  color: #1565c0;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styles for prerequisites */
+.prerequisites-box {
+  border: 2px solid #9c27b0;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1.5rem 0;
+  background-color: #f3e5f5;
+}
+
+.prerequisites-title {
+  font-weight: bold;
+  color: #6a1b9a;
+  margin-bottom: 0.5rem;
+}
+
+/* Custom styles for checklists */
+.checklist-item {
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: flex-start;
+}
+
+.checklist-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+}
+
+/* Custom styles for mermaid diagrams */
+.mermaid {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+/* Custom styles for the RAG chatbot placeholder */
+.rag-chatbot-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.rag-chatbot-button {
+  background-color: var(--ifm-color-primary);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Responsive design improvements */
+@media (max-width: 996px) {
+  .rag-chatbot-container {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  .rag-chatbot-button {
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+  }
+}
+
+/* Custom styles for the sidebar */
+.menu__list-item-collapsible--active {
+  background-color: rgba(42, 77, 105, 0.1);
+}
+
+/* Custom styles for documentation pages */
+.doc-page-content {
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+/* Custom styles for tables */
+.markdown table {
+  display: table;
+  width: 100%;
+  overflow-x: auto;
+  margin: 1.5rem 0;
+}
+
+.markdown table th,
+.markdown table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid var(--ifm-table-border-color);
+}
+
+.markdown table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid var(--ifm-table-border-color);
+  background-color: var(--ifm-table-head-background);
+}
+
+/* Custom styles for blockquotes */
+.markdown blockquote {
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: #f8f9fa;
+  border-radius: 0 0.5rem 0.5rem 0;
+}
+
+/* Custom styles for images */
+.markdown img {
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  max-width: 100%;
+  height: auto;
+}
+
+/* RTL support for Urdu */
+html[dir="rtl"] {
+  text-align: right;
+  direction: rtl;
+}
+
+html[dir="rtl"] .hero__container {
+  text-align: right;
+}
+
+html[dir="rtl"] .hero__title {
+  text-align: right;
+}
+
+html[dir="rtl"] .hero__subtitle {
+  text-align: right;
+}
+
+html[dir="rtl"] .hero__description {
+  text-align: right;
+}
+
+html[dir="rtl"] .buttons {
+  justify-content: flex-end;
+}
+
+html[dir="rtl"] .navbar__items--right {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+html[dir="rtl"] .navbar__items--left {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+html[dir="rtl"] .menu__list-item {
+  text-align: right;
+}
+
+html[dir="rtl"] .table-of-contents__link {
+  text-align: right;
+}
+
+html[dir="rtl"] .pagination-nav__link {
+  text-align: right;
+}
+
+/* Custom styles for the footer */
+.footer--dark {
+  background: linear-gradient(135deg, #1a2a6c, #2a4d69);
+}
+
+/* Custom styles for buttons */
+.button--primary {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-dark);
+  border-color: var(--ifm-color-primary-dark);
+}
+
+/* Custom styles for navigation tabs */
+.tabs__item {
+  border-radius: 0.25rem 0.25rem 0 0;
+  margin-right: 0.25rem;
+}
+
+.tabs__item--active {
+  background-color: var(--ifm-color-primary);
+  color: white;
+}
+
+/* Custom styles for code blocks with line numbers */
+.code-block-line-number {
+  position: relative;
+}
+
+.code-block-line-number::before {
+  content: attr(data-line-number);
+  position: absolute;
+  left: -2.5rem;
+  width: 2rem;
+  padding-right: 0.5rem;
+  text-align: right;
+  color: #999;
+  font-size: 0.875em;
+}
+
+/* Custom styles for important notes */
+.admonition {
+  border-radius: 0.5rem;
+  margin: 1.5rem 0;
+}
+
+.admonition--note {
+  border-left-color: var(--ifm-color-primary);
+}
+
+.admonition--tip {
+  border-left-color: #4caf50;
+}
+
+.admonition--caution {
+  border-left-color: #ff9800;
+}
+
+.admonition--danger {
+  border-left-color: #f44336;
+}
