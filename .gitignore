@@ -8,6 +8,27 @@
 .docusaurus
 .cache-loader
 
+# Build output artifacts (from gh-pages deployment)
+/*.html
+/assets/
+/img/
+/js/
+/ur/
+/home/
+/welcome/
+opensearch.xml
+sitemap.xml
+
+# HTML build outputs in docs and blog directories
+docs/**/*.html
+blog/**/*.html
+blog/*.xml
+blog/*.css
+blog/*.xsl
+
+# Keep source files (not HTML)
+!src/**/*.css
+
 # Misc
 .DS_Store
 .env.local
