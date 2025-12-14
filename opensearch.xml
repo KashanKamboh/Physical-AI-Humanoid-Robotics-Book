@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>Physical AI &amp; Humanoid Robotics</ShortName>
+  <Description>Search Physical AI &amp; Humanoid Robotics</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://kashankamboh.github.io/Physical-AI-Humanoid-Robotics-Book/img/robotics-logo.svg</Image>
+  <Url type="text/html" method="get" template="https://kashankamboh.github.io/Physical-AI-Humanoid-Robotics-Book/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://kashankamboh.github.io/Physical-AI-Humanoid-Robotics-Book/opensearch.xml" />
+  <moz:SearchForm>https://kashankamboh.github.io/Physical-AI-Humanoid-Robotics-Book/</moz:SearchForm>
+</OpenSearchDescription>

@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkhomanoid_robotics_book=globalThis.webpackChunkhomanoid_robotics_book||[]).push([[957],{936:o=>{o.exports=JSON.parse('{"name":"docusaurus-theme-search-algolia","id":"default"}')}}]);
