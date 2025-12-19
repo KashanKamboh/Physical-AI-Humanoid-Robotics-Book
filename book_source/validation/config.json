@@ -1,0 +1,22 @@
+{
+  "validation": {
+    "accuracy": {
+      "required_sources": ["ROS documentation", "NVIDIA Isaac documentation", "IEEE/ACM publications"],
+      "technical_review_required": true
+    },
+    "structure": {
+      "required_sections": ["Introduction", "Main Content", "Conclusion", "References"],
+      "min_word_count": 500,
+      "max_word_count": 5000
+    },
+    "citations": {
+      "format": "APA",
+      "required_fields": ["author", "title", "journal", "year", "doi_or_url"],
+      "minimum_citations": 3
+    },
+    "quality": {
+      "plagiarism_threshold": 0.05,
+      "fact_check_required": true
+    }
+  }
+}
